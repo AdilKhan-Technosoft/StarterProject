@@ -1,3 +1,20 @@
 {
-  "extends": "@tsconfig/react-native/tsconfig.json"
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    /* Visit https://aka.ms/tsconfig.json to read more about this file */
+
+    /* Completeness */
+    "skipLibCheck": true /* Skip type checking all .d.ts files. */,
+    "baseUrl": ".",
+    "paths": {
+      "assets/*": ["./src/asserts/*"],
+      "components/*": ["./src/components/*"],
+      "screens/*": ["./src/screens/*"],
+      "store/*": ["./src/store/*"],
+      "utils/*": ["./src/utils/*"],
+      "types/*": ["./src/types/*"]
+    }
+  },
+  "typeRoots": ["./src/types"]
 }
