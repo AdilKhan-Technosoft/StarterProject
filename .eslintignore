@@ -1,0 +1,9 @@
+node_modules
+dist
+.eslintrc.js
+babel.config.js
+metro.config.js
+react-native.config.js
+config-overrides.js
+webpack.config.js
+jest.config.js
